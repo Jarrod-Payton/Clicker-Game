@@ -1,24 +1,20 @@
 <template>
   <div class="row m-0">
-    <div class="col-12">
-      <div class="card vh20">
-        <div class="card-body h-100">
-          <div class="d-flex justify-content-between">
-            <div class="card elevation-3">
-              <div class="card-body">
-                <h3>Points: {{ points }}</h3>
-              </div>
-            </div>
-            <div class="card elevation-3">
-              <div class="card-body">
-                <h3>Amplifier: {{ amplifier }}</h3>
-              </div>
-            </div>
-            <div class="card elevation-3">
-              <div class="card-body">
-                <h3>Extra: {{ points }}</h3>
-              </div>
-            </div>
+    <div class="col-12 mt-2">
+      <div class="d-flex justify-content-between">
+        <div class="card elevation-3">
+          <div class="card-body">
+            <h3>Points: {{ points }}</h3>
+          </div>
+        </div>
+        <div class="card elevation-3">
+          <div class="card-body">
+            <h3>Amplifier: {{ amplifier }}</h3>
+          </div>
+        </div>
+        <div class="card elevation-3">
+          <div class="card-body">
+            <h3>Extra: {{ points }}</h3>
           </div>
         </div>
       </div>

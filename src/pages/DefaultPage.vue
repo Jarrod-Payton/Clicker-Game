@@ -20,11 +20,13 @@
       </div>
     </div>
     <div class="col-12">
-      <div class="card vh20 elevation-3 selectable m-3" @click="tap()">
-        <div class="card-body h-100">
-          <h1 class="h-100 centered">Tap</h1>
+      <button class="btn w-100">
+        <div class="card vh20 elevation-3 selectable m-3" @click="tap()">
+          <div class="card-body h-100">
+            <h1 class="h-100 centered">Tap</h1>
+          </div>
         </div>
-      </div>
+      </button>
     </div>
     <div class="col-4">
       <div
@@ -101,10 +103,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
-.h-100 {
-  height: 100%;
-}
-
 .vh20 {
   height: 20vh;
 }

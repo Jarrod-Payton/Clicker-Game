@@ -4,9 +4,18 @@ import { reactive } from 'vue'
 export const AppState = reactive({
   user: {},
   account: {},
-  points: 0,
-  amplifier: 1,
-  cost1: 25,
-  cost5: 70,
-
+  madeGames: [],
+  defaultGame:
+  {
+    points: 0,
+    amplifier: 1,
+    cost1: 25,
+    amplifier1: 1,
+    cost2: 50,
+    amplifier2: 5,
+    cost3: 100,
+    amplifier3: 10,
+    cost4: 150,
+    amplifier4: 20,
+  }
 })

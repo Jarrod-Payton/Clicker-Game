@@ -1,15 +1,9 @@
 <template>
-  <header>
-    <Navbar />
-  </header>
+  <header></header>
   <main>
     <router-view />
   </main>
-  <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
-    </div>
-  </footer>
+  <footer></footer>
 </template>
 
 <script>

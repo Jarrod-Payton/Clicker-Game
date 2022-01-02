@@ -43,7 +43,8 @@ export default {
     return {
       DefaultPage() {
         router.push({
-          name: "Default",
+          name: "Game",
+          params: { id: 0 },
         });
       },
     };

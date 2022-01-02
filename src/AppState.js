@@ -6,5 +6,7 @@ export const AppState = reactive({
   account: {},
   points: 0,
   amplifier: 1,
-  cost: 25,
+  cost1: 25,
+  cost5: 70,
+
 })
